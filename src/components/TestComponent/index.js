@@ -1,4 +1,6 @@
 import React from 'react';
+import TestOne from '../Test-one'
+import TestTwoo from '../Test-twoo';
 
 const Test = () => {
 
@@ -59,7 +61,10 @@ const Test = () => {
     ];
 
     return (
-        <div>Test</div>
+        <div>
+            <TestOne dataT={dataT} dataF={dataF} dataY={dataY} dataK={dataK} />
+            <TestTwoo dataT={dataT} dataF={dataF} dataY={dataY} dataK={dataK} />
+        </div>
     )
 }
 
